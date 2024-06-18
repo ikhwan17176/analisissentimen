@@ -1,0 +1,17 @@
+pandas
+matplotlib
+seaborn
+wordcloud
+collections
+nltk.corpus
+nltk.tokenize
+re
+string
+Sastrawi.Stemmer.StemmerFactory
+sklearn.feature_extraction.text
+sklearn.ensemble
+sklearn.model_selection
+sklearn.metrics
+imblearn.over_sampling
+streamlit
+from tqdm
