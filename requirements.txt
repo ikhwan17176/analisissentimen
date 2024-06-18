@@ -5,6 +5,6 @@ wordcloud
 nltk
 Sastrawi
 scikit-learn
-imblearn.over_sampling
+imbalanced-learn
 streamlit
 tqdm
