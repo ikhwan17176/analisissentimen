@@ -2,8 +2,7 @@ pandas
 matplotlib
 seaborn
 wordcloud
-nltk.corpus
-nltk.tokenize
+nltk
 Sastrawi.Stemmer.StemmerFactory
 sklearn.feature_extraction.text
 sklearn.ensemble
