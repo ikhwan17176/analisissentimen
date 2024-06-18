@@ -17,8 +17,9 @@ from imblearn.over_sampling import SMOTE
 import streamlit as st
 from tqdm import trange
 hasil = pd.read_excel("hasil_ulasan.xlsx")
+import nltk
+nltk.download('stopwords')
 nltk.download('punkt')
-nltk.download('stopword')
 # Initialize stemmer
 factory = StemmerFactory()
 stemmer = factory.create_stemmer()
