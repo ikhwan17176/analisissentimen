@@ -4,10 +4,7 @@ seaborn
 wordcloud
 nltk
 Sastrawi
-sklearn.feature_extraction.text
-sklearn.ensemble
-sklearn.model_selection
-sklearn.metrics
+sklearn
 imblearn.over_sampling
 streamlit
 tqdm
