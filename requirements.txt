@@ -4,7 +4,7 @@ seaborn
 wordcloud
 nltk
 Sastrawi
-sklearn
+scikit-learn
 imblearn.over_sampling
 streamlit
 tqdm
