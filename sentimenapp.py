@@ -16,7 +16,7 @@ from sklearn.metrics import classification_report,confusion_matrix, ConfusionMat
 from imblearn.over_sampling import SMOTE
 import streamlit as st
 from tqdm import trange
-hasil = pd.read_excel(r"D:\Tel U\Semester 6\Penambangan Teks\hasil.xlsx")
+hasil = pd.read_excel(r"hasil_ulasan.xlsx")
 
 # Initialize stemmer
 factory = StemmerFactory()
