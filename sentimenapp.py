@@ -18,7 +18,10 @@ import streamlit as st
 from tqdm import trange
 hasil = pd.read_excel("hasil_ulasan.xlsx")
 import nltk
-# Initialize stemmer
+def download_nltk_data():
+    nltk.download('stopwords', quiet=True)
+    nltk.download('punkt', quiet=True)
+download_nltk_data()
 factory = StemmerFactory()
 stemmer = factory.create_stemmer()
 def preprocess_text(text):
