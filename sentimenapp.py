@@ -34,7 +34,7 @@ def preprocess_text(text):
     preprocessed_text = ' '.join(stemmed_tokens)
     return preprocessed_text
 vectorizer = TfidfVectorizer()
-hasil['preprocessed_content'] = hasil['preprocessed_content'].fillna('')
+hasil = hasil.dropna(subset=['preprocessed_content'])
 X = vectorizer.fit_transform(hasil['preprocessed_content'])
 y = hasil['label']
 
