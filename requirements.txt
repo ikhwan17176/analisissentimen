@@ -3,7 +3,7 @@ matplotlib
 seaborn
 wordcloud
 nltk
-Sastrawi.Stemmer.StemmerFactory
+Sastrawi
 sklearn.feature_extraction.text
 sklearn.ensemble
 sklearn.model_selection
