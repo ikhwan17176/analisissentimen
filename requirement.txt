@@ -5,8 +5,6 @@ wordcloud
 collections
 nltk.corpus
 nltk.tokenize
-re
-string
 Sastrawi.Stemmer.StemmerFactory
 sklearn.feature_extraction.text
 sklearn.ensemble
