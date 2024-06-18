@@ -2,7 +2,6 @@ pandas
 matplotlib
 seaborn
 wordcloud
-collections
 nltk.corpus
 nltk.tokenize
 Sastrawi.Stemmer.StemmerFactory
