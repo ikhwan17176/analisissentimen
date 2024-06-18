@@ -12,4 +12,4 @@ sklearn.model_selection
 sklearn.metrics
 imblearn.over_sampling
 streamlit
-from tqdm
+tqdm
