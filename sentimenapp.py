@@ -63,7 +63,6 @@ if choice == 'EDA':
     st.subheader("Exploratory Data Analysis")
     jml_label = hasil['label'].value_counts()
     st.bar_chart(jml_label)
-    hasil['preprocessed_content'] = hasil['preprocessed_content'].fillna('').astype(str)
     wc = " ".join(hasil['preprocessed_content'])
     wordcloud = WordCloud(width=800, height=400, background_color='white').generate(wc)
     plt.figure(figsize=(10, 5))
