@@ -70,16 +70,6 @@ if choice == 'EDA':
     plt.axis('off')
     st.pyplot(plt)
 elif choice == 'Sentiment Analysis':
-    st.subheader("Sentiment Analysis")
-    
-    st.text("Classification Report")
-    st.text(classification_report(y_test, y_pred_smote))
-    
-    cd = confusion_matrix(y_test, y_pred_smote)
-    dispay = ConfusionMatrixDisplay(confusion_matrix=cd, display_labels=['Negative', 'Positive'])
-    dispay.plot(cmap=plt.cm.Blues)
-    st.pyplot(plt)
-    
     st.subheader("Predict Sentiment")
     input_text = st.text_area("Enter your review text here")
     if st.button("Predict"):
